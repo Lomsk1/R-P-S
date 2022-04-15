@@ -1,0 +1,20 @@
+$c-scissors:  hsl(39, 89%, 49%);
+$c-paper:hsl(230, 89%, 62%);
+$c-rock: hsl(349, 71%, 52%);
+$c-lizard: hsl(261, 73%, 60%);
+$c-cyan: hsl(189, 59%, 53%);
+
+$c-darkText:hsl(229, 25%, 31%);
+$c-scoreText:hsl(229, 64%, 46%);
+$c-headerOutline: hsl(217, 16%, 45%);
+@mixin c-background {
+    background: rgb(31,55,86);
+    background: radial-gradient(circle, rgba(31,55,86,1) 29%, rgba(20,21,57,1) 95%);
+}
+
+$font-weight:(
+        'medium': 600,
+        'bold': 700
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
